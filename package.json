@@ -1,0 +1,66 @@
+{
+	"name": "rosy-router",
+	"version": "0.0.1",
+	"description": "A simple and easy to use router for React",
+	"license": "MIT",
+	"author": "Christopher Brandt",
+	"keywords": [
+		"react",
+		"router",
+		"routing",
+		"easy",
+		"simple"
+	],
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"main": "./dist/rosy-router.umd.js",
+	"module": "./dist/rosy-router.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/rosy-router.es.js",
+			"require": "./dist/rosy-router.umd.js"
+		}
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"test": "vitest run",
+		"watch": "vitest",
+		"coverage": "vitest run --coverage"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"eslintConfig": {
+		"env": {
+			"browser": true,
+			"node": true,
+			"es2020": true
+		},
+		"extends": [
+			"eslint:recommended",
+			"plugin:react/recommended"
+		],
+		"parserOptions": {
+			"sourceType": "module"
+		}
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^3.0.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"styled-components": "^5.3.6",
+		"vite": "^4.0.4"
+	}
+}
