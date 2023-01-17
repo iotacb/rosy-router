@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://raw.githubusercontent.com/iotacb/rosy-router/master/rosylogo.svg)
 
 
 # Rousy Router &middot; [![npm package][npm-badge]][npm] [![license][license]][license] [![size][size]][size]
