@@ -1,6 +1,4 @@
-
-![Logo](https://raw.githubusercontent.com/iotacb/rosy-router/master/rosylogo.svg)
-
+<img width="200" src="https://raw.githubusercontent.com/iotacb/rosy-router/master/rosylogo.svg"/>
 
 # Rousy Router &middot; [![npm package][npm-badge]][npm] [![license][license]][license] [![size][size]][size]
 
